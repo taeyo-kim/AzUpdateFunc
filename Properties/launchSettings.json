@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "AzUpdateFunc": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7108"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 30682,
+      "useSSL": false
+    }
+  }
+}
