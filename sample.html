@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Service Updates</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f7fa;
+            min-height: 100vh;
+            padding: 2rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+        }
+
+        .update-item {
+            background: white;
+            border: 1px solid #e1e8ed;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            padding: 0;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .update-title {
+            background: #f8f9fa;
+            padding: 1.5rem 2rem;
+            margin: 0;
+            border-bottom: 1px solid #e1e8ed;
+        }
+
+            .update-title b {
+                font-weight: 600;
+            }
+
+        .status-badge {
+            background: #28a745;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border: none;
+            display: inline-block;
+            margin-right: 0.8rem;
+        }
+
+        .update-details {
+            padding: 1rem;
+            margin: 0;
+            list-style: none;
+            background: white;
+        }
+
+            .update-details li {
+                background: #f8f9fa;
+                margin-bottom: 0.5rem;
+                padding: 1rem 1.5rem;
+                border-radius: 8px;
+                border-left: 4px solid transparent;
+            }
+
+                .update-details li:nth-child(1) {
+                    border-left-color: #ff6b6b;
+                }
+
+                .update-details li:nth-child(2) {
+                    border-left-color: #4ecdc4;
+                }
+
+                .update-details li:nth-child(3) {
+                    border-left-color: #45b7d1;
+                }
+
+                .update-details li:nth-child(4) {
+                    border-left-color: #96ceb4;
+                }
+
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2c3e50;
+        }
+
+        /* 반응형 디자인 */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            .update-title, .update-details {
+                padding: 1rem;
+            }
+
+            .status-badge {
+                display: block;
+                margin-bottom: 0.5rem;
+                text-align: center;
+            }
+        }
+
+        /* 스크롤바 스타일링 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 4px;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #a8a8a8;
+            }
+    </style>
+</head>
+<body>
+    <h1>Azure Service Updates</h1>
+
+    <div class="update-item">
+        <div class="update-title">
+            <b>
+                <a href='https://azure.microsoft.com/updates?id=499161'>
+                    <span class="status-badge">[Launched]</span>
+                    Generally Available: Azure DNS Public Zones DNS Security Extensions (DNSSEC) is now available in our US Gov and China regions
+                </a>
+            </b>
+        </div>
+        <ul class="update-details">
+            <li>
+                <strong>Description:</strong> Announcing the general availability of Domain Name System Security Extensions (DNSSEC) for Azure DNS Public Zones in US Gov and China regions. With this release you can now enable DNSSEC on all existing and new public DNS Zones hosted on Azure DNS. Announcing the general availability of Domain Name System Security Extensions (DNSSEC) for Azure DNS Public Zones in US Gov and China regions. With this release you can now enable DNSSEC on all existing and new public DNS Zones hosted on Azure DNS. This s
+            </li>
+            <li>
+                <strong>Category:</strong> Launched, Networking, Azure DNS, Features, Compliance, Security
+            </li>
+            <li>
+                <strong>Pub Date:</strong> Monday, August 4, 2025 6:00:01 PM (UTC)
+            </li>
+            <li>
+                <strong>Update Date:</strong> 2025-08-04T18:00:01Z (UTC)
+            </li>
+        </ul>
+    </div>
+
+    <div class="update-item">
+        <div class="update-title">
+            <b>
+                <a href='https://azure.microsoft.com/updates?id=499799'>
+                    <span class="status-badge">[Launched]</span>
+                    Generally Available: Azure Storage Actions is now in 22 more regions
+                </a>
+            </b>
+        </div>
+        <ul class="update-details">
+            <li>
+                <strong>Description:</strong> Azure Storage Actions is now available in several more Azure regions, enabling expanded global access and greater data residency options. This includes regions where the service was previously in preview. Additional regions where the service is now genera
+            </li>
+            <li>
+                <strong>Category:</strong> Launched, Storage, Analytics, Azure Blob Storage, Azure Data Lake Storage, Azure Storage Actions, Storage Accounts, Features, Services, Regions &amp; Datacenters
+            </li>
+            <li>
+                <strong>Pub Date:</strong> Monday, August 4, 2025 4:00:40 PM (UTC)
+            </li>
+            <li>
+                <strong>Update Date:</strong> 2025-08-04T16:30:02Z (UTC)
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
